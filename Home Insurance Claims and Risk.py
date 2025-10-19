@@ -8,7 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.ensemble import RandomForestClassifier
 
-# Path to your CSV in the Documents folder
+# Path to CSV in the Documents folder
 csv_path = '/storage/emulated/0/Documents/home_insurance_dataset.csv'
 
 df = pd.read_csv(csv_path)
